@@ -1,0 +1,25 @@
+{
+  "name": "netzero",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "c-scrollbar": "^1.0.2",
+    "vue": "^3.2.13",
+    "vue-simple-complete": "^1.2.0",
+    "vue3-autocomplete": "^1.0.4",
+    "vue3-fancy-autocomplete": "^0.1.1",
+    "vue3-simple-typeahead": "^1.0.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.54.9",
+    "sass-loader": "^10.3.1",
+    "typescript": "~4.5.5"
+  }
+}

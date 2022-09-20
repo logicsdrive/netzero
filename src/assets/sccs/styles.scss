@@ -1,0 +1,99 @@
+@import 'import';
+
+.w-100{
+    width: 100px !important;
+}
+.p-30{
+    padding: 1.875rem;
+}
+.px-30{
+    padding-left: 1.875rem !important;
+    padding-right: 1.875rem !important;
+}
+.py-15{
+    padding-top: .9375rem!important;
+    padding-bottom: .9375rem!important;
+}
+.m-10{
+    margin: .625rem!important
+}
+
+.fade:not(.show){
+    z-index:-1;
+}
+
+.nav{
+	padding-top:1.875rem;
+	li{
+        margin:0 0.313rem;
+		a{
+			border: 1px solid #d3d3d3;
+			border-radius: 2rem;
+			color: var(--textcolor);
+            padding:0.5rem 0.8rem;
+            display:flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            height:36px;
+            text-decoration: none;
+            &.filters{
+                color:#fff;
+                background:var(--primary);
+                border-color:var(--primary);
+                font-weight: 400;
+                letter-spacing: 1px;
+                padding: 0 1.563rem;
+                &:hover{
+                    color:var(--primary);
+                    background:transparent;
+                    border-color:#d3d3d3;
+                }
+            }
+		}
+	}
+    
+}
+.location-dropdown{
+    position:absolute;
+    background-color: #fff;
+    border-radius: 1rem;
+    list-style: none;
+    overflow: hidden;
+    border: 1px solid hsla(0,0%,44%,.12);
+    width:250px;
+    padding: 0.313rem 0 1.25rem 0;
+    margin-top:0.438rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    opacity:0;
+    &.active{
+        opacity:1;
+    }
+    .checkbox{
+        &:hover{
+            background-color: #c4ffcf;
+        }
+    }
+    ul{
+        &:not(:lsat-child){
+            margin-bottom:0.625rem;
+        }
+    }
+    .d-flex{
+        padding: 0.438rem 0.75rem;
+        img{
+            width: 0.75rem;
+        }
+    }
+}
+
+  .c-scrollbar-bar{
+    &.c-scrollbar-vertical{
+        width:9px;
+        background:#ededed;
+        .c-scrollbar-thumb{
+            background-color:#c4ffcf !important;
+        }
+    }
+  }

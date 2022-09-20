@@ -1,0 +1,24 @@
+html {
+    font-size: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+     :root {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: var(--textcolor);
+    background: #f8fcfc;
+    line-height: 1;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+}

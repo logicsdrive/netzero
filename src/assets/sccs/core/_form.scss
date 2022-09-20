@@ -1,0 +1,40 @@
+.form-group{
+    margin-bottom: 1.75rem;
+    label.control-label{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        &:after{
+            -webkit-box-flex: 1;
+            border-bottom: 1px solid hsla(0,0%,44%,.12);
+            content: "";
+            -webkit-flex: 1 1;
+            -ms-flex: 1 1;
+            flex: 1 1;
+            margin: auto auto auto 0.5rem;
+        }
+        span{
+            text-transform: uppercase;
+            line-height: 1.5rem;
+        }
+    }
+}
+.form-control{
+    color: #232426;
+    width: 100%;
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid hsla(0,0%,44%,.12) !important;
+    border-radius: 1rem;
+    height: 2rem;
+    padding: 0 1rem;
+    font-size:0.875rem;
+    margin-top:0.613rem;
+    margin-bottom:0.625rem;
+    box-shadow:none !important;
+    outline:none !important;
+    &::placeholder{
+        color:#dfdee0;
+    }
+}
